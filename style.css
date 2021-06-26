@@ -1,0 +1,72 @@
+#navbar ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#navbar ul li{
+    padding: 10px;
+    list-style: none;
+}
+
+#navbar ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+border-bottom: 3px solid black;
+}
+
+.header {
+    padding: 20px;
+    height: 800px;
+    background: url("977609-20210305174942.jpg");
+    background-size: cover;
+    position:relative;
+}
+
+.header h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: lightsalmon;
+    margin-bottom: 20px;
+}
+
+.header .content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    color: moccasin;
+    padding: 100px 150px 150px 100px;
+    position: center;
+    background: radial-gradient(to bottom, pink,violet)
+}
+
+.flex p {
+font-weight: bold;
+font-family: serif;
+font-size: 150%;
+}
+
+.flex h1 {
+font-size: 325%;
+text-align: center;
+}
+
+ul li {
+    padding: 10px 10px 10px 10px;
+}

@@ -1,0 +1,118 @@
+#navbar ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#navbar ul li {
+    list-style: circle;
+    padding: 20px;
+}
+
+
+#navbar ul li a{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    white-space: inherit;
+    letter-spacing: 1px;
+}
+
+#navbar ul li a:hover{
+    border-bottom: 5px solid cornsilk;
+}
+
+.header {
+background-size: cover;
+position: relative;
+}
+
+.header h1{
+    margin: 0;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    color: cornsilk;
+    margin-bottom: 20px;
+}
+
+body{
+    background:linear-gradient(violet,yellow);
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    color: white;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+}
+
+.intro {
+    padding: 100px 0;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.timeline ul{
+    list-style-type: none;
+    padding: 50 px 0;
+}
+
+.timeline ul li {
+    position: relative;
+    width: 6px;
+    margin: 0;
+    padding-top: 20px ;
+    background: white;
+}
+
+.timeline ul li div{
+    position: relative;
+    bottom: 0;
+    width: 350px;
+    padding: 15px;
+    background-image: radial-gradient(lime,magenta);
+    border-radius: 20px;
+}
+
+.timeline ul li:nth-child(odd) div{
+    left: 45px;
+    transform: translate3d(200px,0,0);
+}
+
+.timeline ul li:nth-child(even) div{
+    left: -440px;
+    transform: translate3d(-200px,0,0);
+}
+
+time{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+time ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+time ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+}
